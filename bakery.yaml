@@ -1,0 +1,6 @@
+commit: HEAD
+process_files: [CabinSketch-Regular.ttf.ttx, CabinSketch-Bold.ttf.ttx, src/CabinSketch-Regular.otf.ttx,
+  src/CabinSketch-Bold.otf.ttx, src/CabinSketch-Regular-TTF.sfd, src/CabinSketch-Bold-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
